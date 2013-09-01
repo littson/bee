@@ -1,0 +1,5 @@
+cron:
+- description: ve2x daily mission
+  url: /bot?type=v2ex
+  schedule: every 12 hours
+  #schedule: every 24 hours
