@@ -12,6 +12,10 @@ handlers:
 - url: /css
   static_dir: static/css
 
+- url: /bot/*
+  script: bee.application
+  login: admin
+
 - url: /.*
   script: bee.application
 
