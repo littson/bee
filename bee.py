@@ -49,7 +49,7 @@ class Bot(webapp2.RequestHandler):
         self.response.write('ok')
 
     def loadBotConf(self, botId):
-        f = file('/Users/eric/repos/bee/accounts.yaml', 'r')
+        f = file('accounts.yaml', 'r')
         confs = yaml.load(f)
         return confs[botId]
 
